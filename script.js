@@ -92,6 +92,5 @@ function runMobileMoneyCalculator() {
     } else {
         outputDiv.textContent = estimateTransactionFee(amountToSend);
     }
-    
     outputDiv.style.display = 'block';
 }
