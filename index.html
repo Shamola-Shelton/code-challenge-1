@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenyan Daily Life Calculators</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1><span class="flag">🇰🇪</span>Kenyan Daily Life Calculators</h1>
+        
+        <div class="calculator">
+            <h2>☕ Challenge 1: Chai Bora Ingredient Calculator</h2>
+            <p>Calculate ingredients needed to make Kenyan chai for any number of cups!</p>
+            <button onclick="runChaiCalculator()">Make Chai Bora</button>
+            <div id="chai-output" class="output"></div>
+        </div>
+        
+        <div class="calculator">
+            <h2>🛵 Challenge 2: Boda Boda Ride Fare Estimator</h2>
+            <p>Estimate your motorcycle taxi fare based on distance!</p>
+            <button onclick="runBodaCalculator()">Calculate Boda Fare</button>
+            <div id="boda-output" class="output"></div>
+        </div>
+        
+        <div class="calculator">
+            <h2>📱 Challenge 3: Mobile Money Transaction Fee</h2>
+            <p>Calculate transaction fees for sending money via mobile money!</p>
+            <button onclick="runMobileMoneyCalculator()">Check Transaction Fee</button>
+            <div id="mobile-output" class="output"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
